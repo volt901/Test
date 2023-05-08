@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D26F39A2A08E750002CDDF8 /* BlogOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D26F3992A08E750002CDDF8 /* BlogOneView.swift */; };
+		7D26F39C2A08E7CB002CDDF8 /* BlogTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D26F39B2A08E7CB002CDDF8 /* BlogTwoView.swift */; };
+		7D26F39E2A08E81B002CDDF8 /* BlogThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D26F39D2A08E81B002CDDF8 /* BlogThreeView.swift */; };
 		7D8FCBDA2A0584E300F8BDBA /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCBD92A0584E300F8BDBA /* TestApp.swift */; };
 		7D8FCBDC2A0584E300F8BDBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCBDB2A0584E300F8BDBA /* ContentView.swift */; };
 		7D8FCBDE2A0584EA00F8BDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FCBDD2A0584EA00F8BDBA /* Assets.xcassets */; };
 		7D8FCBE12A0584EA00F8BDBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8FCBE02A0584EA00F8BDBA /* Preview Assets.xcassets */; };
-		7D8FCBE82A0587EB00F8BDBA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCBE72A0587EB00F8BDBA /* Home.swift */; };
 		7D8FCBEA2A05880800F8BDBA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8FCBE92A05880800F8BDBA /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D26F3992A08E750002CDDF8 /* BlogOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogOneView.swift; sourceTree = "<group>"; };
+		7D26F39B2A08E7CB002CDDF8 /* BlogTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTwoView.swift; sourceTree = "<group>"; };
+		7D26F39D2A08E81B002CDDF8 /* BlogThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogThreeView.swift; sourceTree = "<group>"; };
 		7D8FCBD62A0584E300F8BDBA /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8FCBD92A0584E300F8BDBA /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
 		7D8FCBDB2A0584E300F8BDBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D8FCBDD2A0584EA00F8BDBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D8FCBE02A0584EA00F8BDBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7D8FCBE72A0587EB00F8BDBA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7D8FCBE92A05880800F8BDBA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,8 +61,10 @@
 			children = (
 				7D8FCBD92A0584E300F8BDBA /* TestApp.swift */,
 				7D8FCBDB2A0584E300F8BDBA /* ContentView.swift */,
-				7D8FCBE72A0587EB00F8BDBA /* Home.swift */,
 				7D8FCBE92A05880800F8BDBA /* Settings.swift */,
+				7D26F3992A08E750002CDDF8 /* BlogOneView.swift */,
+				7D26F39B2A08E7CB002CDDF8 /* BlogTwoView.swift */,
+				7D26F39D2A08E81B002CDDF8 /* BlogThreeView.swift */,
 				7D8FCBDD2A0584EA00F8BDBA /* Assets.xcassets */,
 				7D8FCBDF2A0584EA00F8BDBA /* Preview Content */,
 			);
@@ -144,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8FCBDC2A0584E300F8BDBA /* ContentView.swift in Sources */,
-				7D8FCBE82A0587EB00F8BDBA /* Home.swift in Sources */,
+				7D26F39A2A08E750002CDDF8 /* BlogOneView.swift in Sources */,
+				7D26F39C2A08E7CB002CDDF8 /* BlogTwoView.swift in Sources */,
+				7D26F39E2A08E81B002CDDF8 /* BlogThreeView.swift in Sources */,
 				7D8FCBEA2A05880800F8BDBA /* Settings.swift in Sources */,
 				7D8FCBDA2A0584E300F8BDBA /* TestApp.swift in Sources */,
 			);
